@@ -1,0 +1,8 @@
+# Jekyll configuration
+title: html-css
+description: Projeto de HTML e CSS
+theme: minima
+author: eliasAcc25
+
+# Build settings
+markdown: kramdown
