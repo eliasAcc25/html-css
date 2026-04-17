@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        h1 {
+            color: rgb(186, 240, 206);
+            height: 35px;
+            width: 100%;
+            border-color: rgb(142, 206, 176);
+            border-style: solid;
+            border-width: 10px;
+            padding: 10px;
+            text-align: center;
+
+            
+           
+      
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: aqua;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+        a:visited {
+            color: rgb(8, 236, 77);
+        }
+        a:hover {
+            text-decoration: underline;
+            text-decoration-color: blue;
+            color: black;
+        }
+        a:active {
+            color: springgreen;
+        }
+        .especial::before {
+            content: '⇒';
+            color: rgb(231, 126, 5);
+        }
+        .especial::after {
+            content: '⇐';
+            color: rgb(231, 126, 5);
+            display: inline-flex;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/elias-andre-torres_acncp" class="especial" target="_blank">Repo GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCXXXXXXX" target="_blank">Canal YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Curso em Vídeo</a></li>
+    </ul>
+</body>
+</html>

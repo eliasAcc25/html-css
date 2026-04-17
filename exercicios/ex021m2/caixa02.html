@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+
+        }
+        article {
+            background-color: #f0f8ff;
+        }
+        article > aside {
+            background-color: #cee2f3;
+        }
+        footer {
+            background-color: black;
+            color: white;
+           text-align: center;
+           padding: 1px;
+           margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        nav {
+            background-color: rgb(186, 199, 204);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.534);
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weigth: bold;
+            margin-right: 30px;
+        }
+        div#bola {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(216, 207, 207);
+            margin: 10px;
+            border-radius: 20%;
+            position: fixed;
+            position: 20px;
+            border: 20px solid black;
+            padding: 10px;
+            border-color: bisque;
+            box-shadow: 0px 5px 5px 15px rgb(236, 213, 162);
+            
+          
+        }
+        div#bola > h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: rgba(50, 24, 143, 0.5);
+            font-size: 15px;
+            position: relative;
+            top: 20%;
+            box-shadow: 5px 5px 5px 2px rgb(65, 134, 167);
+        }
+        div#bola > h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: rgba(50, 24, 143, 0.5);
+            font-size: 15px;
+            position: relative;
+            top: 20%;
+            box-shadow: 5px 5px 5px 2px rgb(65, 134, 167);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site oficial</h1>
+        <nav>
+            <a href="#" target="_blank">Link</a>
+            <a href="#" target="_blank">Link</a>
+            <a href="#" target="_blank">Link</a>
+            <a href="#" target="_blank">Link</a>
+            <a href="#" target="_blank">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                    <h2>Notícia sobre HTML</h2>
+                <aside>
+                    <p>Artigo escrito por Elias Torres</p>
+                </aside>    
+                        
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Elias Torres</p>
+    </footer>
+    <div id="bola">
+        <h1>Mark Registered</h1>
+        <h2>EAS</h2>
+    </div>
+</body>
+</html>
