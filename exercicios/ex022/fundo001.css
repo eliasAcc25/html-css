@@ -1,0 +1,17 @@
+
+
+body {
+    background: url(imagens/wallpaper002.jpg);
+}
+
+div#q1 {
+    background-color: aqua;
+}
+
+div#q2 {
+    background-image: linear-gradient(to bottom, skyblue, orange);
+}
+
+div#q3 {
+    background-image: url(imagens/pattern004.png);
+}
