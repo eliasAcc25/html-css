@@ -1,11 +1,27 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&family=Passion+One:wght@400;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&family=Pacifico&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --font1-: Verdna. Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+ 
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
 
 
 body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--font1-);
     
 }
 
@@ -17,8 +33,9 @@ body {
 }
         header h1 {
             color: white;
-            font-family: small;
+            font-family: var(--font2);
             font-variant: small-caps;
+            font-size: 10dvw;
         }
         header a {
             color: white;
@@ -41,6 +58,8 @@ body {
             padding-bottom: 10vh;
             line-height: 2em;
             padding-left: 30px;
+            font-family: var(--font3);
+            font-size: 3.5vw;
          }
 
          section.normal {
@@ -51,10 +70,28 @@ body {
          section.imagem {
             background-color: rgba(0, 0, 0, 0.438);
             color: white;
+            box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.356);
+            background-size: cover;
+            background-attachment: fixed;
          }
-         section.imagem > p{
-            width: 400px;
-            background-color: rgba(0, 0, 0, 0.425);
+         section.imagem > p {
+            display: inline-block;
+            padding: 5px;
+            background-color: rgba(0, 0, 0, 0.377);
+            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.377);
+         }
+
+         section > p {
+            padding-bottom: 1em;
+         }
+
+         section#img01 {
+            background-image: url(../imagens/background001.jpg);
+            background-position: right center;
+         }
+
+         section#img02 {
+            background-image: url(../imagens/background002.jpg);
          }
 
          footer {
