@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid darkcyan;
+            padding: 10px;
+            text-align: center;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de Tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th>Grupo</th>
+                <th>Nomes</th>
+                <th>Filmes</th>
+            </tr>
+        </thead>    
+            <tbody>
+            <tr>
+
+                <th rowspan="3">Mulheres</th>
+                <td>João Pedro, Maria Antonieta e José</td>
+                <td>O Poderoso Chefão, O Senhor dos Anéis e Star Wars</td>
+            </tr>
+            <tr>
+                <td>Beatriz</td>
+                <td>Hulk</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>O Exorcista</td>
+                <td>O Exorcista</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Homens</th>
+                <td>Carlos, Pedro e Lucas</td>
+                <td>Matrix, Inception e Gladiador</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>O Senhor dos Anéis</td>
+                <td>Star Wars</td>
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>Gladiador</td>
+                <td>Inception</td>
+            </tr>
+
+            </tbody>
+        
+    </table>
+    
+</body>
+</html>
