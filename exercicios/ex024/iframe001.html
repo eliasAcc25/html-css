@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 90vw;
+            border: 2px solid black;
+            height: 400px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus laudantium explicabo molestiae obcaecati minus placeat itaque distinctio totam. Aperiam quisquam aspernatur, dolores culpa totam quidem blanditiis ipsum obcaecati est delectus.</p>
+
+    <ul>
+        <li><a href="#" onclick="document.getElementById('tela').src='pagina1.html'">Primeira página</a></li>
+        <li><a href="#" onclick="document.getElementById('tela').src='pagina2.html'">Segunda página</a></li>
+        <li><a href="#" onclick="document.getElementById('tela').src='pagina3.html'">Terceira página</a></li>
+    </ul>
+
+    
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae vitae cumque aliquam velit pariatur iste! Dolorum similique numquam quia quos veniam nemo soluta repudiandae ipsam quaerat ex, ipsum magnam ducimus.</p>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis in inventore odio, corporis, quaerat autem quos, mollitia similique sed doloribus ipsum dolor quod? Odit quo cumque magnam, natus placeat voluptas?</p>
+
+    <iframe id="tela" src="">Infelizmente seu navegador não é compatível com iframes.</iframe>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae ipsum, atque dolorem dolorum facere deleniti consequuntur, architecto quasi exercitationem delectus rerum totam? Aut eum dolor libero modi laboriosam reiciendis debitis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium quaerat deserunt in ea eius error beatae cum! Quo exercitationem nesciunt laudantium animi, neque voluptatem debitis magni enim eius dignissimos cumque.</p>
+</body>
+</html>
