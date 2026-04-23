@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i> <br>
+        <menu id="itensMenu">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, ab sint. Voluptas accusamus possimus, amet doloribus earum quidem quos ad. Nobis eos qui dolore doloremque. Praesentium odio odit quas nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veritatis eos ut similique quia sed porro, repellendus aliquam obcaecati vero dicta nostrum odit maiores delectus tempora quisquam minus rerum in!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, ab sint. Voluptas accusamus possimus, amet doloribus earum quidem quos ad. Nobis eos qui dolore doloremque. Praesentium odio odit quas nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veritatis eos ut similique quia sed porro, repellendus aliquam obcaecati vero dicta nostrum odit maiores delectus tempora quisquam minus rerum in!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, ab sint. Voluptas accusamus possimus, amet doloribus earum quidem quos ad. Nobis eos qui dolore doloremque. Praesentium odio odit quas nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veritatis eos ut similique quia sed porro, repellendus aliquam obcaecati vero dicta nostrum odit maiores delectus tempora quisquam minus rerum in!</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itensMenu.style.display == 'block') {
+                itensMenu.style.display = 'none'
+            } else {
+                itensMenu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
