@@ -73,7 +73,6 @@ div.media > img {
 }
 
 div.media > iframe {
-    display: block;
     margin: auto;
     padding: 8px;
     width: 90%;
@@ -82,7 +81,7 @@ div.media > iframe {
 .text-media .media {
     display: flex;
     flex-flow: row nowrap;
-    gap: 10px;
+    gap: 5x;
 }
 
 .text-media .media > img,
@@ -91,5 +90,6 @@ div.media > iframe {
     width: 200px;
     height: 280px;
     object-fit: cover;
+
 }
 
